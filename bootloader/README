@@ -1,0 +1,9 @@
+This is the usb bootloader used in the ir-remote project.
+
+"commandline" contains the linux commandline part to send the firmware to the device
+
+"firmware" contains the firmware that goes into the bootloader section of the avr chip.
+
+The firmware was modded to automagically run the bootloader first and after some 6 seconds or some run the main code.
+
+- bkb
