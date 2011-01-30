@@ -1,0 +1,13 @@
+The aim of this project was controlling your tv from your Linux box to switch the source input of the tv to the attached computer.
+
+So the following happens:
+- Turn on tv
+- Turn on attached linux box
+- Linux box tells the avr board to switch source
+- avr board sends ir-remote commands to the tv
+- Tv switches source to the linux box
+- All good.
+...
+- When turning of the Linux box, the source of the tv is switched back.
+
+- bkb
